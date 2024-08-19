@@ -12,5 +12,6 @@ public class Main {
         book2.sellCopies(8);
         book2.increaseCopies(5);
           System.out.println(book2.toString());
+        scanner.close();
     }
 }

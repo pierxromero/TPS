@@ -22,5 +22,6 @@ public class Main {
         balanceNow=user1.debit(30000);
         System.out.println(user1.toString());
         System.out.printf("\n(Main) Balance:%.2f",balanceNow);
+        scanner.close();
     }
 }
