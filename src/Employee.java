@@ -1,17 +1,17 @@
-public class employee {
+public class Employee {
     ///Atributos
     private String name;
     private String lastName;
     private double salary;
     private int dni;
     ///Constructores
-    public employee(String nombre, String lastName, int dni, double salario) {
+    public Employee(String nombre, String lastName, int dni, double salario) {
         this.name=nombre;
         this.lastName = lastName;
         this.dni=dni;
         this.salary=salario;
     }
-    public employee(){
+    public Employee(){
         this.name = "Desconocido";
         this.lastName = "Desconocido";
         this.salary = 0;
